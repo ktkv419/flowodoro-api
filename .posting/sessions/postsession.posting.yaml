@@ -1,0 +1,14 @@
+name: postSession
+method: POST
+url: http://localhost:8080/sessions
+body:
+  content: |-
+    {
+      "ID": "52",
+      "Start": "2024-10-24T17:29:44Z",
+      "End": "2024-10-24T17:33:58Z"
+    }
+  content_type: application/json
+headers:
+- name: content-type
+  value: application/json
